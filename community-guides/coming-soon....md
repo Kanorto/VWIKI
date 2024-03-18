@@ -1,0 +1,3 @@
+# Coming soon...
+
+Если есть что писать то пишите в [гитхаб](https://github.com/Kanorto/VWIKI/tree/main)
