@@ -1,3 +1,3 @@
 # Coming soon...
 
-Если есть что писать то пишите в [гитхаб](https://github.com/Kanorto/VWIKI/tree/main)
+Если есть что писать то создавайте файл в [гитхаб](https://github.com/Kanorto/VWIKI/tree/main/community-guides). Так мы сможем помогать людям.
