@@ -6,6 +6,7 @@
 
 * [Настройка GEYSERMC](personal-guides/geysermc.md)
 * [Invalid jarfile](personal-guides/server-jar.md)
+* [Настройка Velocity](personal-guides/velocity.md)
 
 ## Community guides
 
