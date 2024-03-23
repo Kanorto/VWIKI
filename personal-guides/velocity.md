@@ -4,16 +4,19 @@
 1 - У вас должно быть 2 сервера&#x20;
 
 {% hint style="danger" %}
-ВНИМАНИЕ! Оба сервера (Velocity и purpur) должны стоять на одной ноде!
+Оба сервера (Velocity и purpur) должны стоять на одной ноде для стабильности соединения!
 {% endhint %}
 
 2 - Основной сервер должен быть на ядре [Paper](https://papermc.io/downloads/paper) / [Purpur](https://purpurmc.org/downloads)
 
 ## 1 - Скачивание и установка ядра Velocity
 
-Шаг 1: Заходим на официальный сайт [Velocity](https://papermc.io/downloads/velocity) и нажимаем на синюю кнопку.\
-![image](https://github.com/Dosto4ka/VWIKI/assets/57598008/d38e07f4-03fe-4db8-a568-22bf1f4598a4)\
-Шаг 2: Зайдите на наш [сайт](https://mgr.veroid.net/), выберите сервер где у вас будет Velocity и перейдите на него.&#x20;
+Шаг 1: Заходим на официальный сайт [Velocity](https://papermc.io/downloads/velocity) и нажимаем на синюю кнопку.
+
+<figure><img src="https://github.com/Dosto4ka/VWIKI/assets/57598008/d38e07f4-03fe-4db8-a568-22bf1f4598a4" alt=""><figcaption></figcaption></figure>
+
+\
+Шаг 2: Зайдите на наш [сайт](https://mgr.veroid.net/), выберите сервер где у вас при создании сервера было поставлено Velocity и перейдите на него.&#x20;
 
 <figure><img src="https://github.com/Dosto4ka/VWIKI/assets/57598008/efc57463-0c9d-4136-b2a7-01ff24f7d6b7" alt=""><figcaption><p>Выберите сервер на котором будет Velocity</p></figcaption></figure>
 
@@ -50,8 +53,10 @@
 
 <figure><img src="https://github.com/Dosto4ka/VWIKI/assets/57598008/20251b27-8159-4bd1-8f93-22f14fc76668" alt=""><figcaption><p>Измените Java и имя ядра</p></figcaption></figure>
 
-Шаг 6.1.1: Выберите значение `Java 16` или `Java 17`\
-![image](https://github.com/Dosto4ka/VWIKI/assets/57598008/8ef6475f-eb66-4fe7-ae23-6a8ad06a83c2)\
+Шаг 6.1.1: Выберите значение `Java 16` или `Java 17`
+
+<figure><img src="https://github.com/Dosto4ka/VWIKI/assets/57598008/8ef6475f-eb66-4fe7-ae23-6a8ad06a83c2" alt=""><figcaption><p>Выберите Java</p></figcaption></figure>
+
 Шаг 6.2: Вставьте ранее скопированное имя файла в раздел `ИМЯ ЯДРА У СЕРВЕРА`
 
 Шаг 7: Запустите сервер Velocity используя вкладку `Консоль`&#x20;
@@ -64,36 +69,45 @@
 
 <figure><img src="https://github.com/Dosto4ka/VWIKI/assets/57598008/db428d64-da71-41d8-b1ab-be619a4a1e1f" alt=""><figcaption></figcaption></figure>
 
-Шаг 2: Найдите файл с названием `Velocity.toml`\
-![image](https://github.com/Dosto4ka/VWIKI/assets/57598008/93545e21-f4a3-4290-8099-021444e04204)
+Шаг 2: Найдите файл с названием `Velocity.toml`
+
+<figure><img src="https://github.com/Dosto4ka/VWIKI/assets/57598008/93545e21-f4a3-4290-8099-021444e04204" alt=""><figcaption><p>Файл</p></figcaption></figure>
 
 Шаг 3: Просмотрите файл и найдите 16 строку\
 Шаг 3.1: Измените значение online-mode с `true` на `false`.
 
-<figure><img src="https://github.com/Dosto4ka/VWIKI/assets/57598008/081ca7d2-1887-40a0-9980-1aba43d67701" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/Dosto4ka/VWIKI/assets/57598008/081ca7d2-1887-40a0-9980-1aba43d67701" alt=""><figcaption><p>Строка</p></figcaption></figure>
 
 Шаг 4: Найдите 37 строку
 
-<figure><img src="https://github.com/Dosto4ka/VWIKI/assets/57598008/58f0d09d-ccc6-426f-8bc1-f52cd13a6c30" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/Dosto4ka/VWIKI/assets/57598008/58f0d09d-ccc6-426f-8bc1-f52cd13a6c30" alt=""><figcaption><p>Способ защиты между серверами</p></figcaption></figure>
 
 Шаг 4.1: Измените значение player-info-forwarding-mode с `NONE` на `modern`.
 
-Шаг 5: Найдите 75 строку\
-![image](https://github.com/Dosto4ka/VWIKI/assets/57598008/a6e0dc28-d6a5-48a4-93f9-d4a6ed74a203)\
-Шаг 5.1: Измените значение `127.0.0.1:30066` на `172.18.0.1:port` в изменённом варианте нужно сменить port на порт вашего основого сервера и у вас есть возможность изменить название `lobby` на то которое вам нужно.
+Шаг 5: Найдите 75 строку
 
-Шаг 6: Найдите 81 строку\
-![image](https://github.com/Dosto4ka/VWIKI/assets/57598008/ae1ffc17-40b0-4802-abf6-e85c6ea8d5c6)\
+<figure><img src="https://github.com/Dosto4ka/VWIKI/assets/57598008/a6e0dc28-d6a5-48a4-93f9-d4a6ed74a203" alt=""><figcaption><p>Настройка сервера</p></figcaption></figure>
+
+Шаг 5.1: Измените значение `127.0.0.1:30066` на `172.18.0.1:port` в изменённом варианте нужно сменить port на порт вашего основного сервера и у вас есть возможность изменить название `lobby` на то которое вам нужно.
+
+Шаг 6: Найдите 81 строку
+
+<figure><img src="https://github.com/Dosto4ka/VWIKI/assets/57598008/ae1ffc17-40b0-4802-abf6-e85c6ea8d5c6" alt=""><figcaption><p>К какому профилю сервера будут пытаться подключится в первую очередь</p></figcaption></figure>
+
 Шаг 6.1: Измените значение `lobby` на то имя которое вы поставили в шаге 5.1
 
 Шаг 7: Найдите файл с названием `forwarding.secret` и скопируйте то что в нём находится, оно вам понадобится в пункте 3.
 
-Шаг 8: Перезапустите сервер Velocity используя вкладку `Консоль` ![image](https://github.com/Dosto4ka/VWIKI/assets/57598008/24d55d10-ee7d-43d6-9955-b4ab22cc7006)
+Шаг 8: Перезапустите сервер Velocity используя вкладку `Консоль`&#x20;
+
+<figure><img src="https://github.com/Dosto4ka/VWIKI/assets/57598008/24d55d10-ee7d-43d6-9955-b4ab22cc7006" alt=""><figcaption></figcaption></figure>
 
 ## Категория 3 - Настройка Paper / Purpur
 
-Шаг 1: Находим с левой стороны `Мои сервера`\
-![image](https://github.com/Dosto4ka/VWIKI/assets/57598008/06b65aa6-f472-4c80-8317-2528ef9c22b5)\
+Шаг 1: Находим с левой стороны `Мои сервера`
+
+<figure><img src="https://github.com/Dosto4ka/VWIKI/assets/57598008/06b65aa6-f472-4c80-8317-2528ef9c22b5" alt=""><figcaption><p>Раздел панели</p></figcaption></figure>
+
 Шаг 1.1: Выберите ваш основной сервер и перейдите на него.&#x20;
 
 <figure><img src="https://github.com/Dosto4ka/VWIKI/assets/57598008/efc57463-0c9d-4136-b2a7-01ff24f7d6b7" alt=""><figcaption><p>Основной сервер</p></figcaption></figure>
@@ -104,8 +118,10 @@
 
 Шаг 3: Пролистните чуть ниже и найдите файл `paper.yml`
 
-Шаг 4: Найдите в данном файле категорию `velocity-support`\
-![image](https://github.com/Dosto4ka/VWIKI/assets/57598008/d59f3936-2a98-448f-ac41-aca597de5c2c)\
+Шаг 4: Найдите в данном файле категорию `velocity-support`
+
+<figure><img src="https://github.com/Dosto4ka/VWIKI/assets/57598008/d59f3936-2a98-448f-ac41-aca597de5c2c" alt=""><figcaption><p>Конфигурация Velocity в paper и его форках</p></figcaption></figure>
+
 Шаг 4.1: Измените значение enabled с `false` на `true`.\
 Шаг 4.2: Измените значение secret на то что вы скопировали. (2 пункт, шаг 7)
 
