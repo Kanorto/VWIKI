@@ -5,7 +5,8 @@
 2 - Основной сервер должен быть на ядре [Paper](https://papermc.io/downloads/paper) / [Purpur](https://purpurmc.org/downloads)
 
 ## Категория 1 - Скачивание и установка ядра Velocity
-Шаг 1: Заходим на официальный сайт [Velocity](https://papermc.io/downloads/velocity) и нажимаем на синюю кнопку. ![image](https://github.com/Dosto4ka/VWIKI/assets/57598008/d38e07f4-03fe-4db8-a568-22bf1f4598a4) \
+Шаг 1: Заходим на официальный сайт [Velocity](https://papermc.io/downloads/velocity) и нажимаем на синюю кнопку. \
+![image](https://github.com/Dosto4ka/VWIKI/assets/57598008/d38e07f4-03fe-4db8-a568-22bf1f4598a4) \
 Шаг 2: Зайдите на наш [сайт](https://mgr.veroid.net/), выберите сервер где у вас будет Velocity и перейдите на него. ![Screenshot_1](https://github.com/Dosto4ka/VWIKI/assets/57598008/efc57463-0c9d-4136-b2a7-01ff24f7d6b7) \
 Шаг 2.1: Перейдите во вкладку <mark>`Файлы`</mark> ![image](https://github.com/Dosto4ka/VWIKI/assets/57598008/db428d64-da71-41d8-b1ab-be619a4a1e1f)
 Шаг 2.2: Пролистните чуть ниже и найдите файл server.jar![image](https://github.com/Dosto4ka/VWIKI/assets/57598008/2a01dff9-201b-433c-b9e3-fe3602f50390)
