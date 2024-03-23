@@ -5,7 +5,7 @@
 ## Гайды от персонала <a href="#personal-guides" id="personal-guides"></a>
 
 * [Настройка GEYSERMC](personal-guides/geysermc.md)
-* [Invalid jarfile](personal-guides/server.jar.md)
+* [Invalid jarfile](personal-guides/server-jar.md)
 
 ## Community guides
 
